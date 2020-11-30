@@ -458,6 +458,47 @@
 			}
 		],
 		"correct_answer": "C"
+	},
+	{
+		"id": 21,
+		"question": "What seems to be wrong with this photocopier",
+		"answer": [
+			{
+				"value" : "A",
+				"text": "A.I have no idea."
+			},
+			{
+				"value": "B",
+				"text": "B.Yes ,I pressed the wrong button."
+			},
+			{
+				"value": "C",
+				"text": "C.We need to get a new coffee machine."
+			}
+			
+		],
+		"correct_answer": "A"
+	},
+	{
+		"id": 22,
+		"question": "What time should we meet?",
+		"answer": [
+			{
+				"value" : "A",
+				"text": "A.The meeting is postponed."
+			},
+			{
+				"value": "B",
+				"text": "B.Let's meet at 3 o'clock."
+			},
+			{
+				"value": "C",
+				"text": "C.THat would be nice."
+			}
+			
+		],
+		"correct_answer": "B"
 	}
+
 
 ]

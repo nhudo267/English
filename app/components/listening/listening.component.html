@@ -6,7 +6,7 @@
 		<div class="list-group">
 			<button (click)="gotoLesson(1)" class="list-group-item"><b>LESSON 1</b></button>
 			<button (click)="gotoLesson(2)" class="list-group-item"><b>LESSON 2</b></button>
-			<button (click)="gotoLesson(1)" class="list-group-item"><b>LESSON 3</b></button>
+			<button (click)="gotoLesson(3)" class="list-group-item"><b>LESSON 3</b></button>
 			<button (click)="gotoLesson(2)" class="list-group-item"><b>LESSON 4</b></button>
 			<button (click)="gotoLesson(1)" class="list-group-item"><b>LESSON 5</b></button>
 		</div>
@@ -81,7 +81,7 @@
 			</div>
 			<h3 style="color: green"><span class="glyphicon glyphicon-tags"></span>  Conversation 2</h3>
 			<div *ngFor=" let question of questions">	
-				<div *ngIf="question.id > 15 && question.id <= 20">
+				<div *ngIf="question.id > 20 && question.id <= 35">
 					<b><h4><span *ngIf="question.status=='Right'" class="glyphicon glyphicon-ok" style="color: green"></span>
 					<span *ngIf="question.status && question.status!='Right'" class="glyphicon glyphicon-remove" style="color:red" ></span> <b>{{question.question}}</b>
 					</h4></b>
@@ -97,6 +97,30 @@
 				</div>
 			</div>
 		</div>
+		<div *ngIf="param==3" >
+			<div class="well">
+				<audio id="track-3" controls>
+					<source src="/audio/Track-3.mp3" type="audio/mp3">
+				</audio>
+			</div>
+			<hr>
+			<h3 style="color: green"><span class="glyphicon glyphicon-tags"></span>  Conversation 1</h3>
+			<div *ngFor=" let question of questions">
+				<div *ngIf="question.id > 20 && question.id <= 22">
+					<b><h4><span *ngIf="question.status=='Right'" class="glyphicon glyphicon-ok" style="color: green"></span>
+					<span *ngIf="question.status && question.status!='Right'" class="glyphicon glyphicon-remove" style="color:red" ></span> <b>{{question.question}}</b>
+					</h4></b>
+					<div *ngIf="question.status && question.status!='Right'">
+						<p style="color:red"> {{question.status}}</p>
+					</div>
+					<div *ngFor=" let option of question.answer">
+						<div>
+							<input type="radio" (click)="saveStatus(question,option.value)" name="{{question.id}}">
+							{{option.text}}
+						</div>
+				  	</div>
+				</div>
+			</div>
 			
 		<h4>Correct Answer: <b>{{ countCorrectAnswer}}</b></h4>
 		<button class="btn btn-md btn-success" (click)="check()">Check answer </button>
