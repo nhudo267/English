@@ -1,4 +1,4 @@
-# Các vấn đề hiện đại của Công nghệ thông tin
+# Huong Dan
 ## Hust:
 Nhudo
 ## Trình bày vấn đề:
