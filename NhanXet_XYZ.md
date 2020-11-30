@@ -28,4 +28,4 @@
 
 ### Chỉnh sửa, bổ sung:
 - Bổ sung phần giới thiệu về công nghệ sử dụng
-- Bổ sung hướng phát triển sản phẩm trong thời gian tới của nhóm.
+- Bổ sung hướng phát triển sản phẩm trong thời gian tới .
