@@ -1,5 +1,5 @@
-# Các vấn đề hiện đại của Công nghệ thông tin
-## Nhóm VAT:
+# Huong Dan
+## Hust:
 Nhudo
 ## Trình bày vấn đề:
 - Hiện nay xu hướng toàn cầu hóa đang diễn ra trên khắp thế giới. Việt Nam cũng không nằm ngoài quy luật đó. Việt Nam đang trong giai đoạn phát triển đất nước, vươn mình ra biển lớn. Một trong những yếu tố ảnh hưởng đến sự phát triển toàn cầu hóa chính là vấn đề ngôn ngữ. Ngoại ngữ là một trong những yếu tố không thể thiếu khi một quốc gia muốn vươn mình ra thế giới.
@@ -21,13 +21,11 @@ Nhudo
 - Tìm hiểu thêm về Nodejs tại [đây](https://nodejs.org/en/).
 
 ### ExpressJS:
-![Ảnh mô tả tại đây](https://github.com/cuongk58uet/englishlearning/blob/master/images/expressjs.png)
 
 - Express là một framework nhỏ và tiện ích để xây dựng các ứng dụng web, cung cấp một lượng lớn của tính năng mạnh mẽ để phát triển các ứng dụng web và mobile. Nó rất dễ dàng để phát triển các ứng dụng nhanh dựa trên Node.js cho các ứng dụng Web.
 - Tham khảo thêm thông tin tại [đây](http://expressjs.com/)
 
 ### Angular 2:
-![Ảnh mô tả tại đây](https://github.com/cuongk58uet/englishlearning/blob/master/images/angular2.jpg)
 
 - AngularJS là một framework có cấu trúc cho các ứng dụng web động. Nó cho phép bạn sử dụng HTML như là ngôn ngữ mẫu và cho phép bạn mở rộng cú pháp của HTML để diễn đạt các thành phần ứng dụng của bạn một cách rõ ràng và súc tích. Hai tính năng cốt lõi: Data binding và Dependency injection của AngularJS loại bỏ phần lớn code mà bạn thường phải viết. Nó hoạt động trên tất cả các trình duyệt, làm cho nó trở thành lựa chọn lý tưởng của bất kỳ công nghệ Server nào.
 - Angular 2 là một sự đột phá từ phiên bản AngularJS 1.x. Cung cấp các tính năng mạnh mẽ hơn nữa. Tham khảo thêm thông tin về Angular 2 tại [đây](https://angular.io/docs/ts/latest/quickstart.html)
@@ -42,8 +40,6 @@ Sau khi cài đặt xong, kiểm tra cài đặt thành công bằng cách mở 
 
 `node -v` 
 `npm -v`
-
-![Ảnh mô tả tại đây](https://github.com/cuongk58uet/englishlearning/blob/master/images/install-node.PNG)
 
 #### Cài đặt Express:
 
