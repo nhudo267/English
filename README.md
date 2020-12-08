@@ -11,12 +11,10 @@ Nhudo
 - Xây dựng trang web học Tiếng Anh sử dụng <b>NodeJS Express Angular2</b>
 
 ## Sản phẩm:
-- Link đến trang web: [English Learning](http://englishlearningdemo.herokuapp.com/)
+- Link đến trang web: (https://nhudo-englishlearning.herokuapp.com/?fbclid=IwAR2EkEYjiU3YkUzlvf5hagfF4CP-C-umvw_JyXPdH9nasW_WKpv017Rz5xs)
 
 ## Giới thiệu công nghệ sử dụng:
 ### Nodejs:
-![Ảnh mô tả tại đây](https://github.com/cuongk58uet/englishlearning/blob/master/images/nodejs.jpeg)
-
 - NodeJS là một mã nguồn được xây dựng dựa trên nền tảng Javascript V8 Engine, libUV platform abstraction layer, và một thư viện lõi được viết bằng Javascript. Nó được sử dụng để xây dựng các ứng dụng web như các trang video clip, các forum và đặc biệt là trang mạng xã hội phạm vi hẹp. NodeJS là một mã nguồn mở được sử dụng rộng bởi hàng ngàn lập trình viên trên toàn thế giới. NodeJS có thể chạy trên nhiều nền tảng hệ điều hành khác nhau từ Windows cho tới Linux, OS X nên đó cũng là một lợi thế. NodeJS cung cấp các thư viện phong phú ở dạng Javascript Module khác nhau giúp đơn giản hóa việc lập trình và giảm thời gian ở mức thấp nhất.
 - Tìm hiểu thêm về Nodejs tại [đây](https://nodejs.org/en/).
 
